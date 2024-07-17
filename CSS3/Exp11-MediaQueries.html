@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            .container{
+                margin:0 auto;
+                background: hsl(154,94%,37%);
+                box-sizing: border-box;
+            }
+            @media screen and (min-width:760px){
+                .container{
+                width:100%;
+                padding: 5px 10px;
+            }}
+            @media screen and (min-width:860px) and (max-width:1024px){
+                .container{
+                width:750px;
+                padding: 5px 10px;
+            }}
+            @media screen and (min-width:1024px){
+                .container{
+                width:980px;
+                padding: 5px 15px;
+            }}
+            @media screen and (min-width:1280px){
+                .container{
+                width:1200px;
+                padding: 5px 20px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p>
+                Welcome to Media screen tag
+                It will help you to change color 
+                when the width or height changes
+                Acording to the dimensions the color will be appeared
+                this is Functionality of @Media Screen tag
+            </p>
+        </div>
+    </body>
+</html>
